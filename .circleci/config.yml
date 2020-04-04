@@ -78,7 +78,8 @@ jobs:
             tar -zxvf v3.25.0.tar.gz
             
             cd scripts/
-            bash get-api-docs.sh beta
+            ls
+            ./get-api-docs.sh beta
             mv src/docs-list.json swagger-ui-3.25.0/dist/
             cd ..
             
